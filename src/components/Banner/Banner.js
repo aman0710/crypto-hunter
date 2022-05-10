@@ -46,10 +46,10 @@ const Banner = () => {
             style={{
               color: "darkgrey",
               textTransform: "capitalize",
-              fontFamily: "Montserraat",
+              fontFamily: "Montserrat",
             }}
           >
-            Get all the Info regarding your favorite Crypto Currency
+            Get all the Info regarding your favorite Cryptocurrency
           </Typography>
         </div>
 
