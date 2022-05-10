@@ -22,6 +22,7 @@ const useStyles = makeStyles(() => ({
   }
 }))
 
+
 const Banner = () => {
   
   const classes = useStyles()

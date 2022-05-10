@@ -47,6 +47,7 @@ const CoinsTable = () => {
 
 	useEffect(() => {
 		fetchCoins()
+		// eslint-disable-next-line
 	}, [currency])
 
 	const darkTheme = createTheme({
@@ -57,6 +58,7 @@ const CoinsTable = () => {
 			type: "dark"
 		},
 	})
+
 
 	const handleSearch = () => {
 		return (

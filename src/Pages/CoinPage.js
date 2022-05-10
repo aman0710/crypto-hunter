@@ -78,6 +78,7 @@ const CoinPage = () => {
 
   useEffect(() => {
     fetchCoin()
+    // eslint-disable-next-line
   }, [])
 
   const classes = useStyles()

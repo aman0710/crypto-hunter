@@ -7,7 +7,9 @@ const CryptoContext = ({children}) => {
 	const [symbol, setSymbol] = useState("₹")
 
 	useEffect(() => {
+    // eslint-disable-next-line
 		if(currency == "INR") setSymbol("₹")
+    // eslint-disable-next-line 
 		else if(currency == "USD") setSymbol("$")
 	}, [currency]);
 
