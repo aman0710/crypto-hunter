@@ -118,7 +118,7 @@ const CoinPage = () => {
             <Typography variant="h5" style={{ fontFamily: "Montserrat" }}>
               {symbol}{" "}
               {numberWithCommas(
-                coin?.market_data.current_price[currency.toLowerCase()]
+                coin?.market_data.current_price[currency.toLowerCase()].toFixed(2)
               )}
             </Typography>
           </span>
