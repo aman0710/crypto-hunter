@@ -1,5 +1,5 @@
 # Project Live Link : 
-https://crypto-hunter0710.netlify.app
+https://crypto0710.netlify.app
 
 
 # Getting Started with Create React App
